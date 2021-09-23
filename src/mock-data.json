@@ -1,0 +1,51 @@
+[{
+        "AssetID": 1,
+        "AssetType": "Talkman",
+        "AssetSubType": "Cisco",
+        "SerialNumber": "45",
+        "CheckOutStatus": "Temp-pool",
+        "AssignedDate": "23rd",
+        "AssignedTo": "Vikas",
+        "AssociateNumber": "7579"
+    },
+    {
+        "AssetID": 234,
+        "AssetType": "Terminal",
+        "AssetSubType": "Lethium",
+        "SerialNumber": "45",
+        "CheckOutStatus": "Temp-pool",
+        "AssignedDate": "24th",
+        "AssignedTo": "Rajesh",
+        "AssociateNumber": "4645"
+    },
+    {
+        "AssetID": 758,
+        "AssetType": "Radio",
+        "AssetSubType": "Motorola",
+        "SerialNumber": "657",
+        "CheckOutStatus": "Temp-pool",
+        "AssignedDate": "6th",
+        "AssignedTo": "Sanjay",
+        "AssociateNumber": "68589"
+    },
+    {
+        "AssetID": 1,
+        "AssetType": "Scan Gun",
+        "AssetSubType": "Motorola",
+        "SerialNumber": "896",
+        "CheckOutStatus": "Temp-pool",
+        "AssignedDate": "14th",
+        "AssignedTo": "Vikas",
+        "AssociateNumber": "8559"
+    },
+    {
+        "AssetID": 1,
+        "AssetType": "Talkman",
+        "AssetSubType": "Cisco",
+        "SerialNumber": "45",
+        "CheckOutStatus": "Temp-pool",
+        "AssignedDate": "23rd",
+        "AssignedTo": "Vikas",
+        "AssociateNumber": "7579"
+    }
+]
