@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-box {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px 1px;
+}
+
+th {
+    padding: 10px;
+    background-color: rgb(214, 130, 130);
+    color: aqua;
+}
+
+table {
+    background-color: rgb(141, 148, 150);
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgb(160, 156, 156, 10);
+}
