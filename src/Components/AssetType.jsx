@@ -1,21 +1,22 @@
 import { useState } from "react";
 const AssetType = (props) => {
   const [assetTypeData, setAssetTypeData] = useState();
+  const [assetSubType, setAssetSubType] = useState("");
+
   const onAssetTypeChangeHandler = (e) => {
     e.preventDefault();
-    props.getSelectedAssetType(e.target.value);
     setAssetTypeData(e.target.value);
+    props.getSelectedAssetType(e.target.value);
   };
   const selectSubTypeFilter = props.assetData.filter((subTypeFilter) => {
     if (subTypeFilter.AssetType === assetTypeData) {
       return subTypeFilter;
-    } else {
-      return "No data";
     }
   });
 
   const onSubTypeChangeHandler = (e) => {
     e.preventDefault();
+    setAssetSubType(e.target.value);
     props.getSelectedAssetSubType(e.target.value);
   };
 
